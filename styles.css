@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    color: rgb(77, 80, 83);
+}
+
+nav{
+    background-color: #5c8f9c;
+}
+
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav-links li{ 
+    padding: 15px;
+}
+
+.nav-links li a{
+    font-weight: 500;
+    color: #02181d;
+    font-size: 1.8rem;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+.nav-links li a:hover{
+    color: #066e88;
+}
+
+/* //Button style */
+
+
+
+.container{
+   display: grid;
+   grid-template-columns: 1fr;
+   row-gap: 50px;
+   justify-items: center;
+   align-items: center;
+   
+} 
+
+.item{
+    position: relative;
+    font-size: medium;
+    margin-top: 40px;
+    box-shadow: 1px 2px 3px 2px rgb(87, 16, 16);
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+@media (min-width: 981px){
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    } 
+}
+
+
+@media (min-width: 700px) and (max-width: 980px){
+.container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+} 
+}
+
+.item .text{
+    position: absolute;
+   bottom: 5px;
+   left: 50px;
+}
