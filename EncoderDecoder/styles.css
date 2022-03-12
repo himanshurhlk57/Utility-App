@@ -8,9 +8,7 @@ a{
     text-decoration: none;
 }
 
-body{
-    position: relative;
-}
+
 
 .navbar {
     background-color: antiquewhite;
@@ -37,6 +35,14 @@ body{
     justify-items: center;
 }
 
+/* #input-field{
+    position: relative;
+    left: 80px;
+} */
+/* #output{
+    position: relative;
+    right: 100px;
+} */
 textarea {
     padding: 13px;
     border-radius: 5px;
@@ -44,7 +50,7 @@ textarea {
     height: 300px;
 }
 
-@media (max-width: 878px) {
+@media (max-width: 936px) {
     .text-area {
         grid-template-columns: 1fr;
     }
@@ -54,6 +60,7 @@ textarea {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .btn-encode {
