@@ -57,9 +57,21 @@ textarea {
     height: 300px;
 }
 
+.dropdown{
+    position: relative;
+    font-size: 1.2rem;
+}
+
+
 @media (max-width: 936px) {
     .text-area {
         grid-template-columns: 1fr;
+    }
+    .app-heading > a{
+        font-size: 1.3rem;
+    }
+    .dropdown{
+        font-size: 1.1rem;
     }
 }
 
@@ -103,10 +115,6 @@ textarea {
     font-size: 1.6rem;
 }
 
-.dropdown{
-    position: relative;
-    font-size: 1.2rem;
-}
 
 .dropdown, .app-heading{
     cursor: pointer;
