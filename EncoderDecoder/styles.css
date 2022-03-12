@@ -1,11 +1,15 @@
 * {
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     color: #555555;
 }
 
 a{
     text-decoration: none;
+}
+
+body{
+    position: relative;
 }
 
 .navbar {
@@ -99,8 +103,13 @@ textarea {
 }
 
 .content a{
+    width: 190px;
+    margin-bottom: 1px;
     display: block;
     text-decoration: none;
+    background-color: antiquewhite;
+    padding: 0px 10px;
+    line-height: 30px;
 }
 
 .content a:hover{
