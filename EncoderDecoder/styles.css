@@ -22,8 +22,6 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* flex-wrap: wrap; */
-    /* position: sticky; */
 }
 .dropdown .app-heading{
     cursor: pointer;
@@ -35,11 +33,13 @@ h2{
 
 .text-area {
     /* position: relative; */
-    margin: 30px 40px 0px 40px;
+    margin-top: 20px;
+    /* margin: 30px 40px 0px 40px; */
     display: grid;
-    gap: 20px;
+    row-gap: 20px;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    justify-items:center
+    
 }
 
 /* #input-field{
@@ -53,8 +53,8 @@ h2{
 textarea {
     padding: 13px;
     border-radius: 5px;
-    width: 350px;
-    height: 300px;
+    /* width: 400px;
+    height: 300px; */
 }
 
 .dropdown{
@@ -73,7 +73,9 @@ textarea {
     .dropdown{
         font-size: 1.1rem;
     }
+
 }
+
 
 .button {
     display: flex;
