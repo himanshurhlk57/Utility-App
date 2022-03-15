@@ -62,6 +62,9 @@ textarea {
     .dropdown{
         font-size: 1rem;
     }
+    .btnTypeFour{
+        margin-top: 10px;
+    }
 
 }
 
@@ -78,7 +81,7 @@ textarea {
 .btnTypeOne {
     margin-right: 10px;
 }
-.btnTypeTwo{
+.btnTypeTwo, .btnTypeThree{
     margin-right: 10px;
 }
 
