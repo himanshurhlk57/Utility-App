@@ -4,7 +4,9 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles.css" />
+        <link rel="stylesheet" href="./stringHashing.css" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 
         <title>String Hashing</title>
     </head>
@@ -44,11 +46,13 @@
                 <textarea type="text" id="output" placeholder="Output" rows="16" cols="41"></textarea>
             </div>
             <div class="button">
-                <button class="btn-encode">Encode</button>
-                <button class="btn-decode">Decode</button>
+                <button class="md5 btnTypeOne">MD5</button>
+                <button class="sha-1 btnTypeTwo">SHA-1</button>
+                <button class="sha-256 btnTypeOne">SHA-256</button>
+                <button class="sha-512 btnTypeTwo">SHA-512</button>
             </div>
         </main>
 
-        <script src="./base64.js"></script>
+        <script src="./stringHashing.js"></script>
     </body>
 </html>
