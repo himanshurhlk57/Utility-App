@@ -32,37 +32,21 @@ h2{
 }
 
 .text-area {
-    /* position: relative; */
     margin-top: 20px;
-    /* margin: 30px 40px 0px 40px; */
-    /* display: grid;
-    row-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    justify-items:center */
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     column-gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 20px;
-    /* justify-content: space-between; */
+
     
 }
 
-/* #input-field{
-    position: relative;
-    left: 80px;
-} */
-/* #output{
-    position: relative;
-    right: 100px;
-} */
+
 textarea {
     padding: 13px;
     border-radius: 5px;
-    /* width: 400px;
-    height: 300px; */
 }
 
 .dropdown{
@@ -71,15 +55,12 @@ textarea {
 }
 
 
-@media (max-width: 936px) {
-    .text-area {
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 391px) {
     .app-heading > a{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .dropdown{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
 }
