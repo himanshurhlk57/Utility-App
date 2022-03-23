@@ -35,17 +35,34 @@
                 </div>
             </nav>
 
-            <h2>HEX to RGB Converter</h2>
+            <h2>RGB-HEX Converter</h2>
         </header>
 
-        <main>
-            <div class="text-area">
-                <textarea id="input-field" type="text" placeholder="Enter Input" rows="16" cols="41"></textarea>
-                <textarea type="text" id="output" placeholder="Output" rows="16" cols="41"></textarea>
+        <main class="main">
+            <div>
+                <label for="red-input">Red Value:</label>
+                <input type="number" name="" id="red-input" placeholder="0-255" />
+            </div>
+            <div>
+                <label for="green-input">Green Value:</label>
+                <input type="number" name="" id="green-input" placeholder="0-255" />
+            </div>
+            <div>
+                <label for="blue-input">Blue Value:</label>
+                <input type="number" name="" id="blue-input" placeholder="0-255" />
             </div>
             <div class="button">
-                <button class="btn-encode">Encode</button>
-                <button class="btn-decode">Decode</button>
+                <button class="convert">Convert</button>
+                <button class="reset">Reset</button>
+            </div>
+            <div>
+                <label for="hex-output">HEX Value:</label>
+                <input type="text" name="" id="hex-output" placeholder="#000000" />
+            </div>
+
+            <h3>Output Color:</h3>
+            <!-- <textarea name="" id="" cols="35" rows="10"></textarea> -->
+            <div class="color-box">
             </div>
         </main>
 

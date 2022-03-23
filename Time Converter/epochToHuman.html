@@ -27,42 +27,50 @@
                 </div>
 
                 <div class="dropdown">
-                    Color Converters
+                    Time Converters
                     <div class="content">
-                        <a href="./index.html">RGB to HEX</a>
-                        <a href="./hextToRgb.html">HEX to RGB</a>
+                        <a href="./epochToHuman.html">Epoch to Human</a>
+                        <a href="./humanToEpoch.html">Human to Epoch</a>
                     </div>
                 </div>
             </nav>
 
-            <h2>RGB-HEX Converter</h2>
+            <h2>Epoch to Human time Converter</h2>
         </header>
 
         <main class="main">
             <div>
-                <label for="red-input">Red Value:</label>
-                <input type="number" name="" id="red-input" placeholder="0-255" />
-            </div>
-            <div>
-                <label for="green-input">Green Value:</label>
-                <input type="number" name="" id="green-input" placeholder="0-255" />
-            </div>
-            <div>
-                <label for="blue-input">Blue Value:</label>
-                <input type="number" name="" id="blue-input" placeholder="0-255" />
+                <label for="red-input">Epoch:</label>
+                <input type="number" name="" id="epoch-input" placeholder="1647540368" />
             </div>
             <div class="button">
                 <button class="convert">Convert</button>
                 <button class="reset">Reset</button>
             </div>
             <div>
-                <label for="hex-output">HEX Value:</label>
-                <input type="text" name="" id="hex-output" placeholder="#000000" />
+                <label for="year-input">Year:</label>
+                <input type="number" name="" id="year-input" placeholder="yyyy" />
             </div>
-
-            <h3>Output Color:</h3>
-            <!-- <textarea name="" id="" cols="35" rows="10"></textarea> -->
-            <div class="color-box"></div>
+            <div>
+                <label for="month-input">Month:</label>
+                <input type="number" name="" id="month-input" placeholder="mm" />
+            </div>
+            <div>
+                <label for="date-output">Date:</label>
+                <input type="text" name="" id="date-output" placeholder="dd" />
+            </div>
+            <div>
+                <label for="hour-output">Hour:</label>
+                <input type="text" name="" id="hour-output" placeholder="hh" />
+            </div>
+            <div>
+                <label for="minutes-output">Minutes:</label>
+                <input type="text" name="" id="minutes-output" placeholder="mm" />
+            </div>
+            <div>
+                <label for="Second-output">Second:</label>
+                <input type="text" name="" id="Second-output" placeholder="ss" />
+            </div>
         </main>
 
         <script src="./index.js"></script>
